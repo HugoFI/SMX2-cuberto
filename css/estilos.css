@@ -1,16 +1,32 @@
+body{
+    margin: 15%;
+    margin-top: auto;
+}
 img{
+    margin: 20px;
     border-radius: 10px;
+    width: 50%;
 }
 *{
     box-sizing: border-box;
 }
+.titulo{
+    display: block;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 350px;
+}
 .row{
     display: flex;
     height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
 }
 .column-2{
     width: 50%;
     height: 350px;
+    display: flex;
+    background-color: red;
 }
 .column-4{
     width: 25%;
@@ -20,6 +36,8 @@ img{
 }
 .estilos{
     height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
 }
 @media screen and (max-width:600px){
     .column-2{
